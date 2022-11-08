@@ -1,0 +1,14 @@
+.main--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--marker{
+    margin-top: 11rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+

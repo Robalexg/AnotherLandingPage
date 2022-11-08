@@ -1,0 +1,73 @@
+.hero--container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 0 7%;
+    margin-top: 5%;
+}
+
+.hero--text{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero--title{
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+    text-align: center;
+    font-weight: 900;
+    width: 44.5rem;
+
+}
+
+.hero--subtitle{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #87879D;
+    width: 54rem;
+}
+
+.hero--buttons{
+    display: flex;
+    gap: 0 1.6rem;
+}
+
+.hero--buttons button{
+    padding: 1.6rem 4rem;
+    border-radius: 2.9rem; 
+    border: none;
+    color: white;
+    font-family: Red Hat Display;
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    text-align: left;
+}
+
+
+.hero--download{
+    background-color: #4D96A9;
+}
+
+.hero--download span{
+    color: #8FE3F9;
+}
+
+.hero--info{
+    background: #855FB1;
+}
+
+.hero--leftimg{
+    width:100%;
+}
+
+.hero--rightimg{
+    width:100%;
+
+}
+
