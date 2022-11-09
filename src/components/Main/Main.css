@@ -1,7 +1,9 @@
 .main--container{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .main--marker{
@@ -11,4 +13,65 @@
     justify-content: center;
     align-items: center;
 }
+
+.main--images{
+    display: flex;
+    justify-content: center;
+    gap: 0 3rem;
+}
+
+.main--images img{
+    width: 17.7%;
+    border-radius: 1rem;
+    margin-top: 6.4rem;
+}
+
+.main--text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.main--text h2{
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    letter-spacing: .4rem;
+    color: #4D96A9;
+}
+
+.main--text h1 {
+    font-size: 4.0rem;
+    font-weight: 900;
+    line-height: 4.4rem;
+    text-align: center;
+    width: 44.5rem;
+    margin-top: 1.6rem;
+
+}
+
+.main--text h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: #87879D;
+    width: 54rem;
+    margin-top: 3.2rem;
+
+}
+
+
+.main--marker2{
+    margin-top: 7.2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
