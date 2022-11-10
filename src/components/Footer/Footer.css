@@ -7,7 +7,6 @@
     background-repeat: no-repeat;
     color: white;
     margin-top: -3rem;
-    width: 100%;
     background-size: cover;
 }
 
@@ -59,5 +58,31 @@
     .footer--container{
         padding: 8% 3.1%;
     }
+}
+
+
+@media (max-width:768px) {
+    .footer--container{
+        flex-flow: column nowrap;
+    }
+
+    .footer--container h1{
+        width: 53%;
+        text-align: center;
+    }
+
+    .footer--container h2{
+        width: 80%;
+        line-height: 2.6rem;
+        text-align: center;
+        color: #FAFAFA;
+        margin-top: 3.2rem;
+    }
+
+    .footer--container button{
+        margin-top: 4rem;
+    }
+    
+    
 }
 
