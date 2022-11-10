@@ -1,6 +1,6 @@
 import './Nav.css'
 
-const Nav = ({}) => {
+const Nav = () => {
     return(
         <nav className='nav--container'>
             <img className='nav--logo' src="../images/logo.svg" alt="" />
